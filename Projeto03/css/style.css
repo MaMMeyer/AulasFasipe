@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
     color: aliceblue;
     max-width: 1200px;
@@ -6,50 +6,69 @@ body{
     padding: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.cabecalho {
+
+.landing {
+    color: blueviolet;
+    margin-top: -20px;
+}
+
+.ph {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+header {
     /*width: 1200px;*/
     /*height: 110px;*/
     /*border: 1px solid blue;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-top: -30px;
 }
 
-.esq{
+.textoheader {
     display: inline-block;
     margin: 20px;
     list-style-type: none;
 }
-li{
+
+li {
+    justify-content: space-between;
     display: inline-block;
     margin: 20px;
+    list-style-type: none;
 }
 
-a{
-    color: blanchedalmond
+.links {
+    color: blanchedalmond;
 }
 
-a:hover{
-    color: aqua;
+.links:hover {
+    color: whitesmoke;
 }
 
-#corpo{
+#corpo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1px;
 }
-.textos{
+
+.titulo {
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.textos {
     width: 500px;
     height: 530px;
-    float: left;    
+    float: left;
     /*border: 1px solid red;*/
     width: 50%;
 }
 
-input{
+input {
     margin-top: 20px;
     height: 20px;
     border-radius: 15px;
@@ -57,7 +76,8 @@ input{
     padding: 10px;
     border: none;
 }
-#botenviar{
+
+#botenviar {
     background-color: darkmagenta;
     color: aliceblue;
     width: 50%;
@@ -65,26 +85,27 @@ input{
     font-size: large;
 }
 
-#botenviar:hover{
+#botenviar:hover {
     cursor: pointer;
-    background-color: crimson; 
+    background-color: blueviolet;
     color: black;
 }
 
-#lorem{
+#origem {
     justify-content: space-between;
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
+    text-align: justify;
 }
-img{
+
+img {
     width: 500px;
     height: 530px;
     /*border: 1px solid red;*/
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
-
