@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabecalho {
+    /*width: 1200px;*/
+    /*height: 110px;*/
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.esq{
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: blanchedalmond
+}
+
+a:hover{
+    color: aqua;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+.textos{
+    width: 500px;
+    height: 530px;
+    float: left;    
+    /*border: 1px solid red;*/
+    width: 50%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+#botenviar{
+    background-color: darkmagenta;
+    color: aliceblue;
+    width: 50%;
+    height: 50%;
+    font-size: large;
+}
+
+#botenviar:hover{
+    cursor: pointer;
+    background-color: crimson; 
+    color: black;
+}
+
+#lorem{
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+}
+img{
+    width: 500px;
+    height: 530px;
+    /*border: 1px solid red;*/
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
